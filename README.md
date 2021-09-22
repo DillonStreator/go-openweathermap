@@ -24,8 +24,8 @@ import (
 )
 
 func main() {
-    // Uses environment variable from key OPENWEATHERMAP_APPID
-    client, err := openweathermap.NewHTTPClient(&http.Client{}, "")
+	// Uses environment variable from key OPENWEATHERMAP_APPID
+	client, err := openweathermap.NewHTTPClient(&http.Client{}, "")
 	if err != nil {
 		log.Fatal(err.Error())
 	}
@@ -35,7 +35,7 @@ func main() {
 		log.Fatal(err.Error())
 	}
 
-    b, _ := json.Marshal(city)
+	b, _ := json.Marshal(city)
 	fmt.Println(string(b))
 }
 ```
