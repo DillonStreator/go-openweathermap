@@ -1,6 +1,6 @@
 # go-openweathermap <img src="https://img.icons8.com/color/48/000000/golang.png" height="25" width="25"/> <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-map-map-pin-flatart-icons-outline-flatarticons.png" height="25" width="25"/>
 
-Go SDK for interacting with https://openweathermap.org/api
+Go http client for interacting with https://openweathermap.org/api
 
 ## Installation
 
